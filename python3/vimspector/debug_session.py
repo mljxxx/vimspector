@@ -1513,5 +1513,5 @@ def PathsToAllConfigFiles( vimspector_base, current_file, filetypes ):
     yield utils.PathToConfigFile( f'.vimspector.{ft}.json',
                                   os.path.dirname( current_file ) )
 
-  yield utils.PathToConfigFile( '.vimspector.json',
+  yield utils.PathToConfigFile( '.vscode/.vimspector.json',
                                 os.path.dirname( current_file ) )
